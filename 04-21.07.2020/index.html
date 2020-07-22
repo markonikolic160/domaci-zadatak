@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">  
+        <style>
+            input { font-family: FontAwesome; }
+        </style>
+
+</head>
+<body>
+    <h1> Responsiv Forma </h1>
+        <p> Promenite sirinu prozora kako biste videli efekat forme. kada je ekran manji od 600px,
+            formu kreirati tako da se njeni elementi nalaze jedni ispod drugih.   </p>
+
+
+    <div class="forma">
+        <form action="">
+            
+            <div class="col-3">
+                <label>Ime i prezime:</label>
+            </div>
+            <div class="col-9">
+                <input type="text" autofocus placeholder="Unesite svoje ime i prezime">
+             </div>
+                
+            <div class="col-3">
+                <label> Pretrazite </label>
+            </div>
+            <div class="col-9">
+                <input type="search" class="search" placeholder="&#xF002; Pretrazite">
+            </div>   
+          
+            
+            <div class="col-3">
+                <label>Zemlja:</label>
+            </div>
+            <div class="col-9">
+                <select id="country" name="zemlja">
+                    <option value="italija">Italija</option>
+                    <option value="srbija">Srbija</option>
+                    <option value="grcka">Grcka</option>
+                    <option value="usa">USA</option>
+                  </select>
+             </div>
+
+             <div class="col-3">
+                 <label>Opis:</label>
+             </div>
+             <div class="col-9">
+                 <textarea placeholder="Napisi neki opis..."></textarea>
+             </div>
+
+             <input class="col-2" type="submit" value="Potvrdite">
+
+
+
+
+
+
+        </form>
+    </div>        
+</body>
+</html>
