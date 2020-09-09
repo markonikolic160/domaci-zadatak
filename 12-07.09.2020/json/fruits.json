@@ -1,0 +1,30 @@
+[
+    {
+        "name": "apple",
+        "kilogram": "50"
+    },
+    {
+        "name": "apricot",
+        "kilogram": "30"
+    },
+    {
+        "name": "banana",
+        "kilogram": "70"
+    },
+    {
+        "name": "blackberries",
+        "kilogram": "10"
+    },
+    {
+        "name": "blueberries",
+        "kilogram": "7"
+    },
+    {
+        "name": "raspberries",
+        "kilogram": "9"
+    },
+    {
+        "name": "strawberries",
+        "kilogram": "15"
+    }
+]

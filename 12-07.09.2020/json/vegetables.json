@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Carrot",
+        "kilogram": "7"
+    },
+    {
+        "name": "Cauliflower",
+        "kilogram": "5"
+    },
+    {
+        "name": "Cucumber",
+        "kilogram": "25"
+    },
+    {
+        "name": "Lettuce",
+        "kilogram": "3"
+    },
+    {
+        "name": "Peas",
+        "kilogram": "15"
+    },
+    {
+        "name": "Potatoes",
+        "kilogram": "50"
+    },
+    {
+        "name": "Tomatoes",
+        "kilogram": "30"
+    }
+]
