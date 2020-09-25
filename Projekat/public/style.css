@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    color: purple;
+}
+header{
+    background-color: rgb(122, 188, 241);
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    background-color: purple;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+
+form{
+    margin: 15px;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 3px purple solid;
+}
+
+input:focus, .btn:focus{
+    outline-width: 0;
+}
+section{
+    height: 290px;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid purple;
+    margin-top: 5px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+li {
+    overflow-wrap: break-word;
+    margin: 5px;
+    padding: 3px;
+    background-color: sandybrown;
+    text-align: left;
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+}
+#userUpdate {
+    position: relative;
+    color: red;
+    padding: 20px 30px;
+}
+.oboji {
+    color: red;
+}
+.current{
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: azure;
+}
+
+@media only screen and (max-width: 950px){
+    .btn {
+        width: 24%;
+    }
+    #btnSend, #btnUpdate {
+        width: 45%;
+    }
+    #userUpdate {
+    position: relative;
+    color: red;
+    padding: 20px 30px;
+    }
+    input {
+        width: 45%;
+    }
+    section{
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .btn {
+        width: 24%;
+    }
+    #btnSend, #btnUpdate {
+        width: 20%;
+        margin-top: 5px;
+    }
+    #userUpdate {
+        position: relative;
+        color: red;
+        padding: 20px 30px;
+        }
+    input {
+        width: 70%;
+     
+    }
+    section{
+        height: 260px;
+    }
+    
+}
